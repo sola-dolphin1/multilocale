@@ -28,6 +28,7 @@ data/mail/chrome/messenger-smime/msgSecurityInfo.properties.i
 data/browser/chrome/browser/migration/migration.dtd.i
 data/suite/chrome/branding/aboutRights.properties.i
 data/calendar/chrome/calendar/preferences/timezones.dtd.i
+data/toolkit/chrome/global/aboutTelemetry.dtd.i
 data/mobile/android/chrome/localepicker.properties.i
 data/browser/chrome/branding/brand.properties.i
 data/toolkit/chrome/mozapps/profile/profileSelection.dtd.i
@@ -41,6 +42,7 @@ data/suite/chrome/common/pref/pref-colors.dtd.i
 data/browser/chrome/browser/migration/migration.properties.i
 data/mail/chrome/messenger/am-smime.dtd.i
 data/extensions/venkman/venkman.diff.i
+data/mail/installer/override.properties.i
 data/mail/chrome/messenger-newsblog/newsblog.properties.i
 data/extensions/spellcheck/hunspell/README_mozilla.txt.i
 data/editor/ui/chrome/dialogs/EditorFieldSetProperties.dtd.i
@@ -49,9 +51,9 @@ data/mobile/profile/chrome/userChrome.css.i
 data/toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd.i
 data/editor/ui/chrome/dialogs/EdColorPicker.dtd.i
 data/suite/chrome/mailnews/msgAccountCentral.dtd.i
-data/suite/chrome/common/help/images/broken.gif.i
+data/extensions/venkman/chrome/venkman-output-locale.css.i
 data/mail/chrome/messenger/mime.properties.i
-data/browser/chrome/browser/preferences/selectBookmark.dtd.i
+data/browser/chrome/browser/devtools/debugger.properties.i
 data/browser/chrome/browser/inspector.properties.i
 data/mail/chrome/messenger/chat.dtd.i
 data/suite/profile/panels.rdf.i
@@ -95,12 +97,13 @@ data/mail/chrome/messenger/taskbar.properties.i
 data/editor/ui/chrome/composer/pref-editing.dtd.i
 data/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd.i
 data/suite/chrome/mailnews/addressbook/abSelectAddressesDialog.dtd.i
-data/suite/chrome/mailnews/smime/msgSecurityInfo.properties.i
+data/mail/chrome/messenger/msgPrintEngine.dtd.i
 data/toolkit/chrome/mozapps/extensions/update.dtd.i
 data/suite/chrome/mailnews/subscribe.dtd.i
 data/security/manager/chrome/pipnss/security.properties.i
 data/extensions/irc/chrome/chatzilla.dtd.i
 data/mail/chrome/messenger/textImportMsgs.properties.i
+data/browser/chrome/browser/devtools/toolbox.dtd.i
 data/mail/chrome/messenger-newsblog/am-newsblog.properties.i
 data/suite/chrome/common/bookmarks/bookmarks.properties.i
 data/mail/chrome/communicator/wallet/SignonViewer.properties.i
@@ -119,14 +122,14 @@ data/browser/chrome/browser/syncSetup.properties.i
 data/mobile/android/mobile-l10n.js.i
 data/suite/profile/bookmarks.extra.i
 data/browser/defines.inc.i
-data/suite/chrome/mailnews/pref/AccountManager.dtd.i
+data/mobile/xul/chrome/browser.properties.i
 data/suite/chrome/common/sync/syncSetup.dtd.i
 data/editor/ui/chrome/region/region.properties.i
 data/mail/chrome/messenger/cloudfile/UbuntuOne/management.dtd.i
 data/suite/chrome/common/pref/pref-security.dtd.i
 data/mail/chrome/communicator/contentAreaCommands.dtd.i
 data/browser/chrome/overrides/appstrings.properties.i
-data/mobile/xul/chrome/browser.properties.i
+data/browser/chrome/browser/devtools/profiler.dtd.i
 data/toolkit/chrome/global/aboutRights.dtd.i
 data/browser/chrome/help/customization.xhtml.i
 data/mobile/android/chrome/aboutApps.dtd.i
@@ -184,7 +187,6 @@ data/suite/searchplugins/excite_eiwa.png.i
 data/suite/chrome/mailnews/smime.properties.i
 data/toolkit/chrome/mozapps/xpinstall/xpinstallConfirm.dtd.i
 data/suite/chrome/common/help/glossary.xhtml.i
-data/suite/chrome/mailnews/outlookImportMsgs.properties.i
 data/mail/chrome/messenger-newsblog/newsblog.dtd.i
 data/suite/chrome/browser/viewSource.properties.i
 data/mail/chrome/messenger/mailOverlay.dtd.i
@@ -208,7 +210,7 @@ data/suite/chrome/mailnews/pref/am-copies.dtd.i
 data/suite/chrome/common/defaultClientDialog.dtd.i
 data/toolkit/chrome/global/filefield.properties.i
 data/mobile/chrome/config.dtd.i
-data/browser/chrome/browser/devtools/debugger.properties.i
+data/browser/chrome/browser/preferences/selectBookmark.dtd.i
 data/toolkit/chrome/global-platform/unix/platformKeys.properties.i
 data/suite/chrome/common/help/images/smile.png.i
 data/mail/chrome/messenger/outlookImportMsgs.properties.i
@@ -222,7 +224,7 @@ data/suite/chrome/browser/linkToolbar.dtd.i
 data/calendar/chrome/calendar/migration.dtd.i
 data/editor/ui/chrome/dialogs/EditorSpellCheck.dtd.i
 data/security/manager/chrome/pippki/pref-masterpass.dtd.i
-data/suite/chrome/mailnews/vCardImportMsgs.properties.i
+data/suite/chrome/common/help/images/reload.gif.i
 data/browser/chrome/browser/aboutRights.properties.i
 data/suite/chrome/common/help/images/online.png.i
 data/extensions/irc/chrome/about.dtd.i
@@ -242,6 +244,7 @@ data/suite/chrome/browser/tabbrowser.dtd.i
 data/mobile/android/chrome/about.dtd.i
 data/browser/chrome/browser/preferences/applicationManager.dtd.i
 data/suite/chrome/common/help/cert_dialog_help.xhtml.i
+data/browser/chrome/browser/devtools/sourceeditor.properties.i
 data/calendar/chrome/calendar/preferences/connection.dtd.i
 data/suite/chrome/common/bookmarks/sortFolder.dtd.i
 data/suite/extra-jar.mn.i
@@ -250,6 +253,7 @@ data/mail/chrome/messenger/preferences/applicationManager.properties.i
 data/toolkit/chrome/global/editMenuOverlay.dtd.i
 data/security/manager/chrome/pippki/PageInfoOverlay.dtd.i
 data/security/manager/chrome/pippki/pref-security.dtd.i
+data/mobile/android/chrome/pippki.properties.i
 data/mail/chrome/messenger/am-identity-edit.dtd.i
 data/browser/chrome/browser/syncGenericChange.properties.i
 data/toolkit/chrome/cookie/cookieAcceptDialog.dtd.i
@@ -276,6 +280,7 @@ data/calendar/chrome/calendar/calendar-event-dialog.dtd.i
 data/mail/chrome/messenger/preferences/offline.dtd.i
 data/mail/chrome/messenger/am-main.dtd.i
 data/calendar/chrome/calendar/providers/gdata/gdata.dtd.i
+data/toolkit/chrome/global/appPicker.dtd.i
 data/mail/chrome/messenger/msgFolderPickerOverlay.dtd.i
 data/calendar/chrome/calendar/providers/gdata/gdata.properties.i
 data/browser/chrome/help/cookies.xhtml.i
@@ -300,6 +305,7 @@ data/toolkit/chrome/global/viewSource.properties.i
 data/browser/chrome/help/glossary.xhtml.i
 data/mail/chrome/messenger/preferences/downloadactions.dtd.i
 data/browser/chrome/browser/preferences/languages.dtd.i
+data/suite/chrome/common/aboutPrivateBrowsing.dtd.i
 data/suite/searchplugins/google.src.i
 data/suite/chrome/common/search/internetresults.dtd.i
 data/suite/chrome/mailnews/folderProps.dtd.i
@@ -344,7 +350,7 @@ data/mail/chrome/messenger/addressbook/abAddressBookNameDialog.dtd.i
 data/mail/chrome/messenger/imAccountWizard.dtd.i
 data/extensions/reporter/chrome/reportWizard.properties.i
 data/toolkit/chrome/global/nsHelperAppDlg.properties.i
-data/toolkit/chrome/global/webapps.properties.i
+data/extensions/venkman/chrome/venkman.properties.i
 data/calendar/chrome/calendar/aboutDialog.dtd.i
 data/browser/profile/bookmarks.html.i
 data/editor/ui/chrome/composer/editorNavigatorOverlay.dtd.i
@@ -394,6 +400,7 @@ data/suite/chrome/common/help/privacy_help.xhtml.i
 data/suite/chrome/common/help/shortcuts_mailnews.xhtml.i
 data/calendar/defines.inc.i
 data/suite/chrome/common/help/images/threadbutton.png.i
+data/browser/chrome/browser/devtools/profiler.properties.i
 data/mail/chrome/messenger/activity.properties.i
 data/mobile/chrome/region.properties.i
 data/mail/chrome/communicator/contentAreaCommands.properties.i
@@ -435,6 +442,7 @@ data/suite/chrome/mailnews/smime/msgReadSMIMEOverlay.properties.i
 data/suite/chrome/common/bookmarks/findBookmark.dtd.i
 data/suite/chrome/common/help/customize_help.xhtml.i
 data/suite/chrome/browser/metadata.dtd.i
+data/mail/chrome/messenger/search-operators.properties.i
 data/editor/ui/chrome/dialogs/EdAdvancedEdit.dtd.i
 data/suite/chrome/common/help/images/anchor-in-doc.gif.i
 data/dom/chrome/layout/xmlparser.properties.i
@@ -454,13 +462,14 @@ data/mail/chrome/messenger/accountCreationModel.properties.i
 data/suite/chrome/mailnews/mimeheader.properties.i
 data/suite/chrome/mailnews/messenger.dtd.i
 data/calendar/chrome/calendar/global.dtd.i
-data/toolkit/chrome/global/appPicker.dtd.i
+data/suite/chrome/common/search/search-panel.dtd.i
 data/suite/chrome/mailnews/pref/mailPrefsOverlay.dtd.i
 data/editor/ui/chrome/dialogs/EditorButtonProperties.dtd.i
 data/browser/profile/chrome/userContent-example.css.i
 data/mail/chrome/mozldap/ldap.properties.i
 data/mail/chrome/messenger/messengercompose/composeMsgs.properties.i
 data/mobile/android/chrome/aboutAddons.properties.i
+data/browser/chrome/browser/devtools/inspector.dtd.i
 data/mobile/chrome/browser.properties.i
 data/suite/chrome/common/pref/pref-cache.dtd.i
 data/toolkit/chrome/global/globalKeys.dtd.i
@@ -501,7 +510,7 @@ data/browser/profile/win/mimeTypes.rdf.i
 data/suite/chrome/mailnews/mailviews.properties.i
 data/toolkit/chrome/search/search.properties.i
 data/suite/installer/mac/README.txt.i
-data/suite/chrome/common/help/images/reload.gif.i
+data/mail/chrome/messenger/activity.dtd.i
 data/mobile/android/chrome/phishing.dtd.i
 data/suite/chrome/mailnews/junkMailInfo.dtd.i
 data/dom/chrome/layout/layout_errors.properties.i
@@ -513,7 +522,7 @@ data/toolkit/chrome/mozapps/preferences/changemp.dtd.i
 data/suite/chrome/common/help/images/columns.png.i
 data/toolkit/chrome/global/languageNames.properties.i
 data/browser/chrome/help/menu_reference.xhtml.i
-data/suite/chrome/common/search/search-panel.dtd.i
+data/mobile/android/chrome/aboutPrivateBrowsing.dtd.i
 data/browser/chrome/browser/devtools/inspector.properties.i
 data/extensions/irc/chrome/pref-irc.dtd.i
 data/browser/installer/nsisstrings.properties.i
@@ -528,7 +537,7 @@ data/calendar/updater/updater.ini.i
 data/browser/searchplugins/twitter-ja.xml.i
 data/mail/chrome/messenger/pgpmime.properties.i
 data/mail/chrome/messenger/shellservice.properties.i
-data/toolkit/chrome/global/printdialog.dtd.i
+data/suite/chrome/mailnews/pref/AccountManager.dtd.i
 data/mail/chrome/messenger/multimessageview.dtd.i
 data/browser/chrome/browser/aboutHome.dtd.i
 data/suite/chrome/mailnews/importDialog.dtd.i
@@ -546,7 +555,7 @@ data/suite/suite-l10n.js.i
 data/toolkit/chrome/global/textcontext.dtd.i
 data/suite/chrome/common/help/images/locationbar.png.i
 data/toolkit/chrome/global/history/history.properties.i
-data/editor/ui/chrome/composer/editorSmileyOverlay.dtd.i
+data/browser/chrome/browser/devtools/responsiveUI.properties.i
 data/editor/ui/chrome/dialogs/EditorPublish.dtd.i
 data/mail/chrome/messenger/news.properties.i
 data/toolkit/chrome/mozapps/xpinstall/xpinstallConfirm.properties.i
@@ -569,6 +578,7 @@ data/extensions/reporter/chrome/reportResults.dtd.i
 data/mail/chrome/messenger/search-attributes.properties.i
 data/calendar/chrome/calendar/migration.properties.i
 data/suite/chrome/mozldap/ldap.properties.i
+data/dom/chrome/mathml/mathml.properties.i
 data/suite/chrome/mailnews/appleMailImportMsgs.properties.i
 data/toolkit/chrome/global/nsHelperAppDlg.dtd.i
 data/suite/searchplugins/google-jp.src.i
@@ -595,6 +605,7 @@ data/mobile/searchplugins/creativecommons.xml.i
 data/suite/chrome/common/help/mailnews_security.xhtml.i
 data/services/sync/sync.properties.i
 data/mobile/chrome/feedback.dtd.i
+data/suite/chrome/common/pref/pref-privatedata.dtd.i
 data/browser/chrome/browser/browser.dtd.i
 data/mail/chrome/messenger/downloadsOverlay.dtd.i
 data/mail/isp/isps.txt.i
@@ -614,7 +625,7 @@ data/suite/chrome/common/dataman/dataman.dtd.i
 data/toolkit/chrome/global/resetProfile.dtd.i
 data/suite/chrome/common/viewApplyThemeOverlay.properties.i
 data/mail/chrome/messenger-offline/offline.properties.i
-data/dom/chrome/netError.dtd.i
+data/suite/chrome/mailnews/outlookImportMsgs.properties.i
 data/suite/chrome/mailnews/compose/askSendFormat.properties.i
 data/calendar/chrome/lightning/lightning.properties.i
 data/suite/chrome/common/help/mailnews_newsgroups.xhtml.i
@@ -622,7 +633,7 @@ data/mobile/xul/chrome/prompt.dtd.i
 data/mobile/android/chrome/notification.dtd.i
 data/toolkit/chrome/global/printPageSetup.dtd.i
 data/suite/chrome/common/help/images/mail_junk_column.png.i
-data/extensions/venkman/chrome/venkman.properties.i
+data/extensions/irc/chrome/chatzilla.properties.i
 data/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd.i
 data/dom/chrome/security/csp.properties.i
 data/mobile/chrome/overrides/aboutRights.dtd.i
@@ -635,6 +646,7 @@ data/services/sync/errors.properties.i
 data/extensions/irc/chrome/ceip.dtd.i
 data/suite/chrome/branding/aboutRights.dtd.i
 data/browser/searchplugins/rakuten.xml.i
+data/toolkit/chrome/global/webapps.properties.i
 data/suite/chrome/common/bookmarks/addBookmark.dtd.i
 data/mobile/chrome/aboutCertError.dtd.i
 data/mobile/android/chrome/checkbox.dtd.i
@@ -645,6 +657,7 @@ data/mail/chrome/messenger-newsblog/feed-properties.dtd.i
 data/toolkit/chrome/global/actions.dtd.i
 data/browser/chrome/branding/brand.dtd.i
 data/suite/searchplugins/yahoo-jp.src.i
+data/mail/chrome/messenger/preferences/colors.dtd.i
 data/suite/chrome/mailnews/filter.properties.i
 data/suite/chrome/mailnews/mailTasksOverlay.dtd.i
 data/suite/chrome/common/help/images/link.gif.i
@@ -742,7 +755,8 @@ data/toolkit/chrome/global-region/region.properties.i
 data/calendar/chrome/branding/brand.properties.i
 data/suite/chrome/mailnews/mailOverlay.dtd.i
 data/suite/searchplugins/dmoz.png.i
-data/browser/chrome/browser/devtools/responsiveUI.properties.i
+data/editor/ui/chrome/composer/editorSmileyOverlay.dtd.i
+data/suite/chrome/common/help/images/broken.gif.i
 data/browser/branding/official/brand.properties.i
 data/browser/searchplugins/google-jp.xml.i
 data/mail/chrome/messenger/eudoraImportMsgs.properties.i
@@ -774,10 +788,10 @@ data/mail/chrome/branding/brand.properties.i
 data/mail/chrome/messenger/junkMailInfo.dtd.i
 data/mobile/updater/updater.ini.i
 data/mail/chrome/messenger/imAccounts.properties.i
+data/toolkit/chrome/alerts/alert.dtd.i
 data/browser/searchplugins/yahoo-jp.xml.i
 data/browser/chrome/browser/devtools/debugger.dtd.i
 data/suite/chrome/common/pref/pref-history.dtd.i
-data/browser/chrome/browser/preferences/aboutPermissions.dtd.i
 data/editor/ui/chrome/composer/editor.dtd.i
 data/suite/chrome/mailnews/oeImportMsgs.properties.i
 data/toolkit/chrome/global/aboutSupport.properties.i
@@ -836,7 +850,7 @@ data/extensions/spellcheck/hunspell/en-US.dic.d
 data/mail/chrome/messenger/aboutRights.dtd.i
 data/suite/chrome/common/notification.properties.i
 data/browser/chrome/help/firefox_welcome.xhtml.i
-data/extensions/venkman/chrome/venkman-output-locale.css.i
+data/browser/pdfviewer/chrome.properties.i
 data/toolkit/chrome/mozapps/update/updates.dtd.i
 data/toolkit/chrome/mozapps/profile/profileSelection.properties.i
 data/suite/chrome/common/help/images/task_newmail.png.i
@@ -856,6 +870,7 @@ data/toolkit/chrome/global/aboutSupport.dtd.i
 data/suite/defines.inc.i
 data/suite/chrome/common/bookmarks/moveBookmarks.dtd.i
 data/suite/chrome/common/help/suitehelp.rdf.i
+data/suite/chrome/mailnews/smime/msgSecurityInfo.properties.i
 data/mobile/xul/chrome/aboutHome.dtd.i
 data/mail/chrome/global-platform/win/nsWindowsHooks.properties.i
 data/mail/installer/mui.properties.i
@@ -867,6 +882,7 @@ data/mobile/android/chrome/aboutReader.properties.i
 data/mobile/android/base/android_strings.dtd.i
 data/suite/chrome/common/help/developer_tools.xhtml.i
 data/suite/chrome/common/help/images/mail_read_column.png.i
+data/toolkit/chrome/global/aboutTelemetry.properties.i
 data/browser/microsummary-generators/list.txt.i
 data/toolkit/chrome/mozapps/update/history.dtd.i
 data/editor/ui/chrome/dialogs/EditorSaveAsCharset.dtd.i
@@ -902,7 +918,7 @@ data/suite/chrome/common/help/images/mail_newmail_alert.png.i
 data/suite/chrome/common/help/images/taskbar.png.i
 data/suite/chrome/common/pref/pref-popups.dtd.i
 data/extensions/irc/chrome/channels.dtd.i
-data/mail/installer/override.properties.i
+data/browser/chrome/browser/devtools/toolbox.properties.i
 data/calendar/chrome/calendar/calendar-event-dialog-attendees.properties.i
 data/toolkit/chrome/global/viewSource.dtd.i
 data/browser/chrome/browser/devtools/styleeditor.properties.i
@@ -928,6 +944,7 @@ data/suite/chrome/common/openLocation.dtd.i
 data/mail/chrome/messenger/messengercompose/mailComposeEditorOverlay.dtd.i
 data/toolkit/chrome/mozapps/help/welcome.xhtml.i
 data/calendar/chrome/calendar/calendar-alarms.properties.i
+data/suite/chrome/common/safeBrowsing.dtd.i
 data/suite/chrome/common/help/using_priv_help.xhtml.i
 data/calendar/chrome/sunbird/aboutDialog.dtd.i
 data/suite/chrome/common/pref/pref-applicationManager.dtd.i
@@ -942,6 +959,7 @@ data/dom/chrome/global.dtd.i
 data/mail/chrome/messenger/preferences/display.dtd.i
 data/browser/searchplugins/amazon-jp.xml.i
 data/suite/chrome/common/downloads/downloadmanager.dtd.i
+data/suite/chrome/mailnews/vCardImportMsgs.properties.i
 data/mail/chrome/communicator/utilityOverlay.dtd.i
 data/mail/chrome/messenger/oeImportMsgs.properties.i
 data/toolkit/chrome/mozapps/extensions/selectAddons.properties.i
@@ -1074,6 +1092,7 @@ data/browser/chrome/browser/preferences/privacy.dtd.i
 data/suite/chrome/common/help/ssl_help.xhtml.i
 data/mail/chrome/messenger/addressbook/replicationProgress.dtd.i
 data/calendar/chrome/calendar/calendar-invitations-dialog.dtd.i
+data/toolkit/chrome/global/printdialog.dtd.i
 data/suite/chrome/mailnews/search-attributes.properties.i
 data/browser/chrome/browser/preferences/fallbackEULA.dtd.i
 data/browser/chrome/browser/devtools/scratchpad.dtd.i
@@ -1095,7 +1114,7 @@ data/suite/chrome/mailnews/newsblog/feed-subscriptions.dtd.i
 data/suite/chrome/mailnews/mailViewList.dtd.i
 data/mail/chrome/messenger/imapMsgs.properties.i
 data/toolkit/chrome/global/printPreview.dtd.i
-data/extensions/irc/chrome/chatzilla.properties.i
+data/browser/chrome/browser/preferences/aboutPermissions.dtd.i
 data/suite/chrome/mailnews/FilterEditor.dtd.i
 data/browser/chrome/browser/places/editBookmarkOverlay.dtd.i
 data/mail/chrome/messenger/defaultClientDialog.dtd.i
@@ -1115,7 +1134,7 @@ data/mail/chrome/messenger/preferences/security.dtd.i
 data/extensions/venkman/chrome/profile.html.tpl.i
 data/suite/searchplugins/excite_enja.png.i
 data/suite/chrome/common/history/historyTreeOverlay.dtd.i
-data/browser/chrome/browser/devtools/sourceeditor.properties.i
+data/browser/chrome/browser/devtools/connection-screen.dtd.i
 data/suite/chrome/mailnews/addressbook/abCardOverlay.dtd.i
 data/extensions/reporter/chrome/reportWizard.dtd.i
 data/suite/chrome/mailnews/threadpane.dtd.i
@@ -1147,9 +1166,10 @@ data/mobile/xul/chrome/browser.dtd.i
 data/suite/chrome/common/bookmarks/bm-props.properties.i
 data/suite/chrome/common/help/images/composer_icon.png.i
 data/mail/chrome/messenger/am-server-top.dtd.i
+data/browser/chrome/browser/devtools/font-inspector.dtd.i
 data/mail/chrome/messenger/searchIntegrationDefault.dtd.i
 data/suite/chrome/common/help/images/offline.png.i
-data/mail/chrome/messenger/activity.dtd.i
+data/browser/chrome/browser/devtools/connection-screen.properties.i
 data/mail/chrome/messenger/offlineStartup.properties.i
 data/suite/chrome/mailnews/vcard.properties.i
 data/suite/chrome/common/help/images/help_nav.png.i
@@ -1159,7 +1179,7 @@ data/calendar/sunbird-l10n.js.i
 data/suite/installer/windows/README.txt.i
 data/dom/chrome/appstrings.properties.i
 data/suite/chrome/mailnews/compose/sendProgress.dtd.i
-data/mail/chrome/messenger/search-operators.properties.i
+data/browser/chrome/browser/aboutHealthReport.dtd.i
 data/security/manager/chrome/pippki/validation.dtd.i
 data/suite/chrome/common/pref/pref-proxies-advanced.dtd.i
 data/editor/ui/chrome/dialogs/EdLinkChecker.dtd.i
@@ -1169,7 +1189,7 @@ data/mobile/android/chrome/browser.properties.i
 data/suite/searchplugins/dmoz.src.i
 data/suite/chrome/mailnews/pref/prefs.properties.i
 data/dom/chrome/webservices/security.properties.i
-data/browser/pdfviewer/chrome.properties.i
+data/dom/chrome/netError.dtd.i
 data/suite/searchplugins/excite_jaen.png.i
 data/toolkit/chrome/mozapps/update/errors.dtd.i
 data/editor/ui/chrome/composer/pref-publish.dtd.i
